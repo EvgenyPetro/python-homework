@@ -1,2 +1,5 @@
 .gitignore
 seminar
+.idea
+venv
+.idea/*
