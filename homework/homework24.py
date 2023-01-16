@@ -35,11 +35,11 @@ def rle_decode(data):
 
 
 with  open("decode.txt") as decode:
-    decode_str = decode.read()
+    decode_str = decode.read().strip()
     print(rle_encode(decode_str))
 
 with  open("encode.txt") as encode:
-    encode_str = encode.read()
+    encode_str = encode.read().strip()
     print(rle_decode(encode_str))
 
 
